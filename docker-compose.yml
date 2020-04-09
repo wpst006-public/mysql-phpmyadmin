@@ -27,7 +27,7 @@ services:
             PMA_PORT: 3306
             PMA_ARBITRARY: 1
         networks:
-              - my-admin-network      
+            - my-admin-network      
 networks:
     my-admin-network:
         driver: bridge            
